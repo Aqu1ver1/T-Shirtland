@@ -5,13 +5,13 @@ const slider_wrapper = document.querySelectorAll('.wrapper_slider_arr_1'),
 
 const skateboarding = document.querySelector('.skateboarding'),
       anime = document.querySelector('.anime'),
-      minimalism = document.querySelector('.minimalism'),
-      sport = document.querySelector('.sport');
+      minimalism = document.querySelector('.minimalism');
+      // sport = document.querySelector('.sport');
 
 const btn_skateboarding = document.querySelector('.btn_skateboarding'),
       btn_anime = document.querySelector('.btn_anime'),
-      btn_minimalism = document.querySelector('.btn_minimalism'),
-      btn_sport = document.querySelector('.btn_sport');
+      btn_minimalism = document.querySelector('.btn_minimalism');
+      // btn_sport = document.querySelector('.btn_sport');
 
 
 Nav(0, 0, 0)
@@ -19,14 +19,14 @@ btn_skateboarding.addEventListener('click', function () {
   skateboarding.style.display = 'block'
   anime.style.display = 'none'
   minimalism.style.display = 'none'
-  sport.style.display = 'none'
+  // sport.style.display = 'none'
   Nav(0, 0,0)
 })
 btn_anime.addEventListener('click', function () {
   skateboarding.style.display = 'none'
   anime.style.display = 'block'
   minimalism.style.display = 'none'
-  sport.style.display = 'none'
+  // sport.style.display = 'none'
 
   Nav(1, 0,3)
 
@@ -35,19 +35,19 @@ btn_minimalism.addEventListener('click', function () {
   skateboarding.style.display = 'none'
   anime.style.display = 'none'
   minimalism.style.display = 'block'
-  sport.style.display = 'none'
+  // sport.style.display = 'none'
 
   Nav(2, 0,6)
 
 })
-btn_sport.addEventListener('click', function () {
-  skateboarding.style.display = 'none'
-  anime.style.display = 'none'
-  minimalism.style.display = 'none'
-  sport.style.display = 'block'
-
-  Nav(3, 0,9)
-})
+// btn_sport.addEventListener('click', function () {
+//   skateboarding.style.display = 'none'
+//   anime.style.display = 'none'
+//   minimalism.style.display = 'none'
+//   sport.style.display = 'block'
+//
+//   Nav(3, 0,9)
+// })
 function Nav(btn_current, position,current_dots_active) {
 
 

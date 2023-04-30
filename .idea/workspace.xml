@@ -4,19 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fb954119-fa51-47e0-a189-0a5f11f2fdb5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/aboutUs.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/slider_arr_1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/slider_arr_2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/t-shirts/Фото товара.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/t-shirts/Фото товара2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/t-shirts/Фото товара3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/t-shirts/Фото товара4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/t-shirts/Фото товара5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
+    <list default="true" id="fb954119-fa51-47e0-a189-0a5f11f2fdb5" name="Changes" comment="new page, t-shirts, scripts fot sliders">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/slider_arr_1.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/slider_arr_1.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop.html" beforeDir="false" afterPath="$PROJECT_DIR$/shop.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,11 +84,24 @@
       <workItem from="1682776159876" duration="513000" />
       <workItem from="1682777268285" duration="8315000" />
       <workItem from="1682788353477" duration="1738000" />
-      <workItem from="1682876599645" duration="8103000" />
+      <workItem from="1682876599645" duration="8219000" />
+      <workItem from="1682887235689" duration="197000" />
     </task>
+    <task id="LOCAL-00001" summary="new page, t-shirts, scripts fot sliders">
+      <created>1682886987906</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1682886987906</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="new page, t-shirts, scripts fot sliders" />
+    <option name="LAST_COMMIT_MESSAGE" value="new page, t-shirts, scripts fot sliders" />
   </component>
 </project>
