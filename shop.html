@@ -1,0 +1,559 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="shop.css">
+    <title>T-shirtland</title>
+</head>
+<body>
+<header>
+    <div class="container">
+        <div class="header">
+            <div class="logo">
+                <img src="https://user-images.githubusercontent.com/77167962/213913882-1c6509b0-0895-4fa1-98a6-1882cb33f30e.png" alt="logo">
+                <p class="logo-text">T-Shirtland</p>
+            </div>
+            <nav class="nav-text">
+                <li class="burger__li">
+                    <a href="./index.html" class="burger__a">Главная</a>
+                </li>
+                <li class="burger__li">
+                    <a href="./shop.html" class="burger__a">Магазин</a>
+                </li>
+                <li class="burger__li">
+                    <a href="./aboutUs.html" class="burger__a">О&nbsp;бренде</a>
+                </li>
+            </nav>
+            <div class="phone-header">
+                <img src="https://user-images.githubusercontent.com/77167962/213913885-bea5054b-0eca-4778-9e0f-99ae49f66eb0.png" alt="phone" class="">
+                <p class="phone-text">+38 (097) 657-10-95</p>
+            </div>
+            <div class="icons-header">
+                <div class="input-div">
+                    <img src="https://user-images.githubusercontent.com/77167962/213913883-9b896e2e-dada-4d4a-9bd1-aa6290a0fe83.png" alt="search" class="">
+                    <label>
+                        <input type="search" class="input-search" maxlength="16" placeholder="Поиск...">
+                    </label>
+                </div>
+                <div class="bags-icon">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M9 22.5C9.82842 22.5 10.5 21.8284 10.5 21C10.5 20.1716 9.82842 19.5 9 19.5C8.17158 19.5 7.5 20.1716 7.5 21C7.5 21.8284 8.17158 22.5 9 22.5Z" stroke="black" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M20 22.5C20.8284 22.5 21.5 21.8284 21.5 21C21.5 20.1716 20.8284 19.5 20 19.5C19.1716 19.5 18.5 20.1716 18.5 21C18.5 21.8284 19.1716 22.5 20 22.5Z" stroke="black" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M1 2H5L7.68 15.39C7.77144 15.8504 8.02191 16.264 8.38755 16.5583C8.75318 16.8526 9.2107 17.009 9.68 17H19.4C19.8693 17.009 20.3268 16.8526 20.6925 16.5583C21.0581 16.264 21.3086 15.8504 21.4 15.39L23 7H6" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </div>
+                <div class="burger"  onclick="burger()">
+                    <span class="burger_line burger_line_1"></span>
+                    <span class="burger_line burger_line_2"></span>
+                    <span class="burger_line burger_line_3"></span>
+                    <span class="burger_line burger_line_4"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+<nav class="burger__menu">
+    <ul class="burger__list">
+        <div class="input-div">
+            <img src="https://user-images.githubusercontent.com/77167962/213913883-9b896e2e-dada-4d4a-9bd1-aa6290a0fe83.png" alt="search" class="">
+            <label>
+                <input type="search" class="input-search" maxlength="16" placeholder="Поиск...">
+            </label>
+        </div>
+        <li class="burger__li">
+            <a href="./index.html" class="burger__a">Главная</a>
+        </li>
+        <li class="burger__li">
+            <a href="./shop.html" class="burger__a">Магазин</a>
+        </li>
+        <li class="burger__li">
+            <a href="./aboutUs.html" class="burger__a">О&nbsp;бренде</a>
+        </li>
+
+    </ul>
+</nav>
+<div class="container">
+    <main>
+        <section>
+            <h1 class="shop_h1">Магазин</h1>
+            <div class="button-wrapper style">
+                <button class="button_slider_1 btn_skateboarding">Скейтбордінг</button>
+                <button class="button_slider_1 btn_anime">Аніме</button>
+                <button class="button_slider_1 btn_minimalism">Мінімалізм</button>
+<!--                <button class="button_slider_1 btn_sport">Спорт</button>-->
+            </div>
+            <!--Skateboarding-->
+            <div class="skateboarding" style="display: block">
+                <h2 class="New-collection-h2">Скейтбордінг</h2>
+                <div class="new-col-photos" >
+                    <div class="slider-overflow" >
+                        <div class="slider-wrapper wrapper_slider_arr_1">
+                            <!--page1-->
+                            <div class="new-col-photo1" >
+                                <img src="https://user-images.githubusercontent.com/77167962/213914000-9099db39-9852-42bc-b425-4f6c8eb77566.png" alt="t-shirt" class="photo-div">
+                                <p class="t-shirt-name">Футболка SkateBoarding</p>
+                                <p class="price">$29</p>
+                            </div>
+                            <div class="new-col-photo1" >
+                                <img src="https://user-images.githubusercontent.com/77167962/213914004-68c71739-b66f-4c28-9005-bd263ac368e8.png" alt="t-shirt" class="photo-div">
+                                <p class="t-shirt-name">Футболка FingerBoard</p>
+                                <p class="price">$15</p>
+                            </div>
+                            <div class="new-col-photo1">
+                                <img src="https://user-images.githubusercontent.com/77167962/213913998-ac362bc3-bf12-4112-b1bb-0caa489acadc.png" alt="t-shirt" class="photo-div">
+                                <p class="t-shirt-name">Футболка Skeleton  Drift</p>
+                                <div class="price-with-sale">
+                                    <p class="price-sale">$29</p>
+                                    <p class="price-main-sale">$19</p>
+                                </div>
+                            </div>
+                            <!--page2-->
+                            <div class="new-col-photo1">
+                                <img src="https://user-images.githubusercontent.com/77167962/213913998-ac362bc3-bf12-4112-b1bb-0caa489acadc.png" alt="t-shirt" class="photo-div">
+                                <p class="t-shirt-name">Футболка Skeleton  Drift</p>
+                                <div class="price-with-sale">
+                                    <p class="price-sale">$29</p>
+                                    <p class="price-main-sale">$19</p>
+                                </div>
+                            </div>
+                            <div class="new-col-photo1">
+                                <img src="https://user-images.githubusercontent.com/77167962/213913999-26138c19-8715-4ab9-866b-2878dcfb7abc.png"  alt="t-shirt" class="photo-div">
+                                <p class="t-shirt-name">Футболка SpaceBoarding</p>
+                                <p class="price">$19</p>
+                            </div>
+                            <div class="new-col-photo1">
+                                <img src="https://user-images.githubusercontent.com/77167962/213914001-d1221dde-5856-4651-a2fb-033e8d56de06.png" alt="t-shirt" class="photo-div">
+                                <p class="t-shirt-name">Футболка Astronaut</p>
+                                <div class="price-with-sale">
+                                    <p class="price-sale">$29</p>
+                                    <p class="price-main-sale">15</p>
+                                </div>
+                            </div>
+                            <!--page3-->
+                            <div class="new-col-photo1">
+                                <img src="https://user-images.githubusercontent.com/77167962/213913998-ac362bc3-bf12-4112-b1bb-0caa489acadc.png" alt="t-shirt" class="photo-div">
+                                <p class="t-shirt-name">Футболка Skeleton  Drift</p>
+                                <div class="price-with-sale">
+                                    <p class="price-sale">$29</p>
+                                    <p class="price-main-sale">$19</p>
+                                </div>
+                            </div>
+                            <div class="new-col-photo1">
+                                <img src="https://user-images.githubusercontent.com/77167962/213913999-26138c19-8715-4ab9-866b-2878dcfb7abc.png"  alt="t-shirt" class="photo-div">
+                                <p class="t-shirt-name">Футболка SpaceBoarding</p>
+                                <p class="price">$19</p>
+                            </div>
+                            <div class="new-col-photo1">
+                                <img src="https://user-images.githubusercontent.com/77167962/213914001-d1221dde-5856-4651-a2fb-033e8d56de06.png" alt="t-shirt" class="photo-div">
+                                <p class="t-shirt-name">Футболка Astronaut</p>
+                                <div class="price-with-sale">
+                                    <p class="price-sale">$29</p>
+                                    <p class="price-main-sale">15</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="button-wrapper">
+                            <button class="button_slider_1 btn_prev">Попер</button>
+                            <div class="dots_wrapper">
+                                <span class="dots_style dots_style_active"></span>
+                                <span class="dots_style"></span>
+                                <span class="dots_style"></span>
+                            </div>
+                            <button class="button_slider_1 btn_next">Наст</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--Anime-->
+            <div class="anime" style="display: none">
+                <h2 class="New-collection-h2">Аніме</h2>
+                <div class="new-col-photos" >
+                    <div class="slider-overflow" >
+                        <div class="slider-wrapper wrapper_slider_arr_1">
+                            <!--page1-->
+                            <div class="new-col-photo1" >
+                                <img src="./img/t-shirts/Anime/Anime1.png" alt="t-shirt" class="photo-div">
+                                <p class="t-shirt-name">Футболка SkateBoarding</p>
+                                <p class="price">$29</p>
+                            </div>
+                            <div class="new-col-photo1" >
+                                <img src="./img/t-shirts/Anime/Anime2.png" alt="t-shirt" class="photo-div">
+                                <p class="t-shirt-name">Футболка FingerBoard</p>
+                                <p class="price">$15</p>
+                            </div>
+                            <div class="new-col-photo1">
+                                <img src="./img/t-shirts/Anime/Anime3.png" alt="t-shirt" class="photo-div">
+                                <p class="t-shirt-name">Футболка Skeleton  Drift</p>
+                                <div class="price-with-sale">
+                                    <p class="price-sale">$29</p>
+                                    <p class="price-main-sale">$19</p>
+                                </div>
+                            </div>
+                            <!--page2-->
+                            <div class="new-col-photo1">
+                                <img src="./img/t-shirts/Anime/Anime4.png" alt="t-shirt" class="photo-div">
+                                <p class="t-shirt-name">Футболка Skeleton  Drift</p>
+                                <div class="price-with-sale">
+                                    <p class="price-sale">$29</p>
+                                    <p class="price-main-sale">$19</p>
+                                </div>
+                            </div>
+                            <div class="new-col-photo1">
+                                <img src="./img/t-shirts/Anime/Anime5.png"  alt="t-shirt" class="photo-div">
+                                <p class="t-shirt-name">Футболка SpaceBoarding</p>
+                                <p class="price">$19</p>
+                            </div>
+                            <div class="new-col-photo1">
+                                <img src="./img/t-shirts/Anime/Anime6.png" alt="t-shirt" class="photo-div">
+                                <p class="t-shirt-name">Футболка Astronaut</p>
+                                <div class="price-with-sale">
+                                    <p class="price-sale">$29</p>
+                                    <p class="price-main-sale">15</p>
+                                </div>
+                            </div>
+                            <!--page3-->
+                            <div class="new-col-photo1">
+                                <img src="./img/t-shirts/Anime/Anime7.png" alt="t-shirt" class="photo-div">
+                                <p class="t-shirt-name">Футболка Skeleton  Drift</p>
+                                <div class="price-with-sale">
+                                    <p class="price-sale">$29</p>
+                                    <p class="price-main-sale">$19</p>
+                                </div>
+                            </div>
+                            <div class="new-col-photo1">
+                                <img src="./img/t-shirts/Anime/Anime8.png"  alt="t-shirt" class="photo-div">
+                                <p class="t-shirt-name">Футболка SpaceBoarding</p>
+                                <p class="price">$19</p>
+                            </div>
+                            <div class="new-col-photo1">
+                                <img src="./img/t-shirts/Anime/Anime9.png" alt="t-shirt" class="photo-div">
+                                <p class="t-shirt-name">Футболка Astronaut</p>
+                                <div class="price-with-sale">
+                                    <p class="price-sale">$29</p>
+                                    <p class="price-main-sale">15</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="button-wrapper">
+                            <button class="button_slider_1 btn_prev">Попер</button>
+                            <div class="dots_wrapper">
+                                <span class="dots_style dots_style_active"></span>
+                                <span class="dots_style"></span>
+                                <span class="dots_style"></span>
+                            </div>
+                            <button class="button_slider_1 btn_next">Наст</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--Minimalism-->
+            <div class="minimalism" style="display: none">
+                <h2 class="New-collection-h2">Мінімалізм</h2>
+                <div class="new-col-photos" >
+                    <div class="slider-overflow" >
+                        <div class="slider-wrapper wrapper_slider_arr_1">
+                            <!--page1-->
+                            <div class="new-col-photo1" >
+                                <img src="img/t-shirts/Minimalism/Minimalism1.png" alt="t-shirt" class="photo-div">
+                                <p class="t-shirt-name">Футболка SkateBoarding</p>
+                                <p class="price">$29</p>
+                            </div>
+                            <div class="new-col-photo1" >
+                                <img src="img/t-shirts/Minimalism/Minimalism2.png" alt="t-shirt" class="photo-div">
+                                <p class="t-shirt-name">Футболка FingerBoard</p>
+                                <p class="price">$15</p>
+                            </div>
+                            <div class="new-col-photo1">
+                                <img src="img/t-shirts/Minimalism/Minimalism3.png" alt="t-shirt" class="photo-div">
+                                <p class="t-shirt-name">Футболка Skeleton  Drift</p>
+                                <div class="price-with-sale">
+                                    <p class="price-sale">$29</p>
+                                    <p class="price-main-sale">$19</p>
+                                </div>
+                            </div>
+                            <!--page2-->>
+                            <div class="new-col-photo1">
+                                <img src="img/t-shirts/Minimalism/Minimalism4.png" alt="t-shirt" class="photo-div">
+                                <p class="t-shirt-name">Футболка Skeleton  Drift</p>
+                                <div class="price-with-sale">
+                                    <p class="price-sale">$29</p>
+                                    <p class="price-main-sale">$19</p>
+                                </div>
+                            </div>
+                            <div class="new-col-photo1">
+                                <img src="img/t-shirts/Minimalism/Minimalism5.png"  alt="t-shirt" class="photo-div">
+                                <p class="t-shirt-name">Футболка SpaceBoarding</p>
+                                <p class="price">$19</p>
+                            </div>
+                            <div class="new-col-photo1">
+                                <img src="img/t-shirts/Minimalism/Minimalism6.png" alt="t-shirt" class="photo-div">
+                                <p class="t-shirt-name">Футболка Astronaut</p>
+                                <div class="price-with-sale">
+                                    <p class="price-sale">$29</p>
+                                    <p class="price-main-sale">15</p>
+                                </div>
+                            </div>
+                            <!--page3-->
+                            <div class="new-col-photo1">
+                                <img src="img/t-shirts/Minimalism/Minimalism7.png" alt="t-shirt" class="photo-div">
+                                <p class="t-shirt-name">Футболка Skeleton  Drift</p>
+                                <div class="price-with-sale">
+                                    <p class="price-sale">$29</p>
+                                    <p class="price-main-sale">$19</p>
+                                </div>
+                            </div>
+                            <div class="new-col-photo1">
+                                <img src="img/t-shirts/Minimalism/Minimalism8.png"  alt="t-shirt" class="photo-div">
+                                <p class="t-shirt-name">Футболка SpaceBoarding</p>
+                                <p class="price">$19</p>
+                            </div>
+                            <div class="new-col-photo1">
+                                <img src="img/t-shirts/Minimalism/Minimalism9.png" alt="t-shirt" class="photo-div">
+                                <p class="t-shirt-name">Футболка Astronaut</p>
+                                <div class="price-with-sale">
+                                    <p class="price-sale">$29</p>
+                                    <p class="price-main-sale">15</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="button-wrapper">
+                            <button class="button_slider_1 btn_prev">Попер</button>
+                            <div class="dots_wrapper">
+                                <span class="dots_style dots_style_active"></span>
+                                <span class="dots_style"></span>
+                                <span class="dots_style"></span>
+                            </div>
+                            <button class="button_slider_1 btn_next">Наст</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--Sport-->
+<!--            <div class="sport" style="display: none">-->
+<!--                <h2 class="New-collection-h2">Спорт</h2>-->
+<!--                <div class="new-col-photos" >-->
+<!--                    <div class="slider-overflow" >-->
+<!--                        <div class="slider-wrapper wrapper_slider_arr_1">-->
+<!--                            &lt;!&ndash;page1&ndash;&gt;-->
+<!--                            <div class="new-col-photo1" >-->
+<!--                                <img src="https://user-images.githubusercontent.com/77167962/213914000-9099db39-9852-42bc-b425-4f6c8eb77566.png" alt="t-shirt" class="photo-div">-->
+<!--                                <p class="t-shirt-name">Футболка SkateBoarding</p>-->
+<!--                                <p class="price">$29</p>-->
+<!--                            </div>-->
+<!--                            <div class="new-col-photo1" >-->
+<!--                                <img src="https://user-images.githubusercontent.com/77167962/213914004-68c71739-b66f-4c28-9005-bd263ac368e8.png" alt="t-shirt" class="photo-div">-->
+<!--                                <p class="t-shirt-name">Футболка FingerBoard</p>-->
+<!--                                <p class="price">$15</p>-->
+<!--                            </div>-->
+<!--                            <div class="new-col-photo1">-->
+<!--                                <img src="https://user-images.githubusercontent.com/77167962/213913998-ac362bc3-bf12-4112-b1bb-0caa489acadc.png" alt="t-shirt" class="photo-div">-->
+<!--                                <p class="t-shirt-name">Футболка Skeleton  Drift</p>-->
+<!--                                <div class="price-with-sale">-->
+<!--                                    <p class="price-sale">$29</p>-->
+<!--                                    <p class="price-main-sale">$19</p>-->
+<!--                                </div>-->
+<!--                            </div>-->
+<!--                            &lt;!&ndash;page2&ndash;&gt;>-->
+<!--                            <div class="new-col-photo1">-->
+<!--                                <img src="https://user-images.githubusercontent.com/77167962/213913998-ac362bc3-bf12-4112-b1bb-0caa489acadc.png" alt="t-shirt" class="photo-div">-->
+<!--                                <p class="t-shirt-name">Футболка Skeleton  Drift</p>-->
+<!--                                <div class="price-with-sale">-->
+<!--                                    <p class="price-sale">$29</p>-->
+<!--                                    <p class="price-main-sale">$19</p>-->
+<!--                                </div>-->
+<!--                            </div>-->
+<!--                            <div class="new-col-photo1">-->
+<!--                                <img src="https://user-images.githubusercontent.com/77167962/213913999-26138c19-8715-4ab9-866b-2878dcfb7abc.png"  alt="t-shirt" class="photo-div">-->
+<!--                                <p class="t-shirt-name">Футболка SpaceBoarding</p>-->
+<!--                                <p class="price">$19</p>-->
+<!--                            </div>-->
+<!--                            <div class="new-col-photo1">-->
+<!--                                <img src="https://user-images.githubusercontent.com/77167962/213914001-d1221dde-5856-4651-a2fb-033e8d56de06.png" alt="t-shirt" class="photo-div">-->
+<!--                                <p class="t-shirt-name">Футболка Astronaut</p>-->
+<!--                                <div class="price-with-sale">-->
+<!--                                    <p class="price-sale">$29</p>-->
+<!--                                    <p class="price-main-sale">15</p>-->
+<!--                                </div>-->
+<!--                            </div>-->
+<!--                            &lt;!&ndash;page3&ndash;&gt;-->
+<!--                            <div class="new-col-photo1">-->
+<!--                                <img src="https://user-images.githubusercontent.com/77167962/213913998-ac362bc3-bf12-4112-b1bb-0caa489acadc.png" alt="t-shirt" class="photo-div">-->
+<!--                                <p class="t-shirt-name">Футболка Skeleton  Drift</p>-->
+<!--                                <div class="price-with-sale">-->
+<!--                                    <p class="price-sale">$29</p>-->
+<!--                                    <p class="price-main-sale">$19</p>-->
+<!--                                </div>-->
+<!--                            </div>-->
+<!--                            <div class="new-col-photo1">-->
+<!--                                <img src="https://user-images.githubusercontent.com/77167962/213913999-26138c19-8715-4ab9-866b-2878dcfb7abc.png"  alt="t-shirt" class="photo-div">-->
+<!--                                <p class="t-shirt-name">Футболка SpaceBoarding</p>-->
+<!--                                <p class="price">$19</p>-->
+<!--                            </div>-->
+<!--                            <div class="new-col-photo1">-->
+<!--                                <img src="https://user-images.githubusercontent.com/77167962/213914001-d1221dde-5856-4651-a2fb-033e8d56de06.png" alt="t-shirt" class="photo-div">-->
+<!--                                <p class="t-shirt-name">Футболка Astronaut</p>-->
+<!--                                <div class="price-with-sale">-->
+<!--                                    <p class="price-sale">$29</p>-->
+<!--                                    <p class="price-main-sale">15</p>-->
+<!--                                </div>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                        <div class="button-wrapper">-->
+<!--                            <button class="button_slider_1 btn_prev">Попер</button>-->
+<!--                            <div class="dots_wrapper">-->
+<!--                                <span class="dots_style dots_style_active"></span>-->
+<!--                                <span class="dots_style"></span>-->
+<!--                                <span class="dots_style"></span>-->
+<!--                            </div>-->
+<!--                            <button class="button_slider_1 btn_next">Наст</button>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--            </div>-->
+        </section>
+        <section>
+            <!--Popular-->
+            <h2 class="New-collection-h2">Популярні товари</h2>
+            <div class="new-col-photos" >
+                <div class="slider-overflow_2" >
+                    <div class="slider-wrapper_2 wrapper_slider_arr_2">
+                        <!--page1-->
+                        <div class="new-col-photo1" >
+                            <img src="https://user-images.githubusercontent.com/77167962/213914000-9099db39-9852-42bc-b425-4f6c8eb77566.png" alt="t-shirt" class="photo-div">
+                            <p class="t-shirt-name">Футболка SkateBoarding</p>
+                            <p class="price">$29</p>
+                        </div>
+                        <div class="new-col-photo1" >
+                            <img src="https://user-images.githubusercontent.com/77167962/213914004-68c71739-b66f-4c28-9005-bd263ac368e8.png" alt="t-shirt" class="photo-div">
+                            <p class="t-shirt-name">Футболка FingerBoard</p>
+                            <p class="price">$15</p>
+                        </div>
+                        <div class="new-col-photo1">
+                            <img src="https://user-images.githubusercontent.com/77167962/213913998-ac362bc3-bf12-4112-b1bb-0caa489acadc.png" alt="t-shirt" class="photo-div">
+                            <p class="t-shirt-name">Футболка Skeleton  Drift</p>
+                            <div class="price-with-sale">
+                                <p class="price-sale">$29</p>
+                                <p class="price-main-sale">$19</p>
+                            </div>
+                        </div>
+                        <div class="new-col-photo1">
+                            <img src="https://user-images.githubusercontent.com/77167962/213913998-ac362bc3-bf12-4112-b1bb-0caa489acadc.png" alt="t-shirt" class="photo-div">
+                            <p class="t-shirt-name">Футболка Skeleton  Drift</p>
+                            <div class="price-with-sale">
+                                <p class="price-sale">$29</p>
+                                <p class="price-main-sale">$19</p>
+                            </div>
+                        </div>
+                        <div class="new-col-photo1">
+                            <img src="https://user-images.githubusercontent.com/77167962/213913998-ac362bc3-bf12-4112-b1bb-0caa489acadc.png" alt="t-shirt" class="photo-div">
+                            <p class="t-shirt-name">Футболка Skeleton  Drift</p>
+                            <div class="price-with-sale">
+                                <p class="price-sale">$29</p>
+                                <p class="price-main-sale">$19</p>
+                            </div>
+                        </div>
+                        <div class="new-col-photo1">
+                            <img src="https://user-images.githubusercontent.com/77167962/213913998-ac362bc3-bf12-4112-b1bb-0caa489acadc.png" alt="t-shirt" class="photo-div">
+                            <p class="t-shirt-name">Футболка Skeleton  Drift</p>
+                            <div class="price-with-sale">
+                                <p class="price-sale">$29</p>
+                                <p class="price-main-sale">$19</p>
+                            </div>
+                        </div>
+                        <!--page2-->
+                        <div class="new-col-photo1" >
+                            <img src="https://user-images.githubusercontent.com/77167962/213914000-9099db39-9852-42bc-b425-4f6c8eb77566.png" alt="t-shirt" class="photo-div">
+                            <p class="t-shirt-name">Футболка SkateBoarding</p>
+                            <p class="price">$29</p>
+                        </div>
+                        <div class="new-col-photo1" >
+                            <img src="https://user-images.githubusercontent.com/77167962/213914004-68c71739-b66f-4c28-9005-bd263ac368e8.png" alt="t-shirt" class="photo-div">
+                            <p class="t-shirt-name">Футболка FingerBoard</p>
+                            <p class="price">$15</p>
+                        </div>
+                        <div class="new-col-photo1">
+                            <img src="https://user-images.githubusercontent.com/77167962/213913998-ac362bc3-bf12-4112-b1bb-0caa489acadc.png" alt="t-shirt" class="photo-div">
+                            <p class="t-shirt-name">Футболка Skeleton  Drift</p>
+                            <div class="price-with-sale">
+                                <p class="price-sale">$29</p>
+                                <p class="price-main-sale">$19</p>
+                            </div>
+                        </div>
+                        <div class="new-col-photo1">
+                            <img src="https://user-images.githubusercontent.com/77167962/213913998-ac362bc3-bf12-4112-b1bb-0caa489acadc.png" alt="t-shirt" class="photo-div">
+                            <p class="t-shirt-name">Футболка Skeleton  Drift</p>
+                            <div class="price-with-sale">
+                                <p class="price-sale">$29</p>
+                                <p class="price-main-sale">$19</p>
+                            </div>
+                        </div>
+                        <div class="new-col-photo1">
+                            <img src="https://user-images.githubusercontent.com/77167962/213913998-ac362bc3-bf12-4112-b1bb-0caa489acadc.png" alt="t-shirt" class="photo-div">
+                            <p class="t-shirt-name">Футболка Skeleton  Drift</p>
+                            <div class="price-with-sale">
+                                <p class="price-sale">$29</p>
+                                <p class="price-main-sale">$19</p>
+                            </div>
+                        </div>
+                        <div class="new-col-photo1">
+                            <img src="https://user-images.githubusercontent.com/77167962/213913998-ac362bc3-bf12-4112-b1bb-0caa489acadc.png" alt="t-shirt" class="photo-div">
+                            <p class="t-shirt-name">Футболка Skeleton  Drift</p>
+                            <div class="price-with-sale">
+                                <p class="price-sale">$29</p>
+                                <p class="price-main-sale">$19</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="button-wrapper">
+                        <button class="button_slider_1 btn_prev_2">Попер</button>
+                        <div class="dots_wrapper">
+                            <span class="dots_style  dots_style_2 dots_style_active"></span>
+                            <span class="dots_style dots_style_2 "></span>
+                        </div>
+                        <button class="button_slider_1 btn_next_2">Наст</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+</div>
+<footer class="footer">
+    <div class="container">
+        <div class="footer-text-div">
+            <p class="footer-text">© Все права защищены</p>
+            <p class="footer-text">Политика конфиденциальности</p>
+            <p class="footer-text">Публичная оферта</p>
+        </div>
+        <nav class="nav-text">
+            <li class="burger__li">
+                <a href="./index.html" class="burger__a">Главная</a>
+            </li>
+            <li class="burger__li">
+                <a href="./shop.html" class="burger__a">Магазин</a>
+            </li>
+            <li class="burger__li">
+                <a href="./aboutUs.html" class="burger__a">О&nbsp;бренде</a>
+            </li>
+        </nav>
+        <div class="footer-icons">
+            <div class="footer-icons-soc">
+                <img src="https://user-images.githubusercontent.com/77167962/213913661-394aa955-948d-4164-a6ac-fa35b16ef88e.png" alt="ico" class="">
+                <img src="https://user-images.githubusercontent.com/77167962/213913660-ccbd0376-c4db-4866-bbfc-6675d27086d1.png" alt="ico" class="">
+                <img src="https://user-images.githubusercontent.com/77167962/213913658-6ab2c581-fcc9-4e75-a4b5-47c560d0a758.png" alt="ico" class="">
+                <img src="https://user-images.githubusercontent.com/77167962/213913659-be3f52d4-cadf-4fe5-9c68-4055e944105e.png" alt="ico" class="">
+            </div>
+            <div class="footer-icons-date">
+                <a>+38 (097) 657-10-95</a>
+                <a>maksim260107@gmail.com</a>
+            </div>
+        </div>
+    </div>
+</footer>
+</body>
+<script src="js/slider_arr_1.js"></script>
+<script src="js/slider_arr_2.js"></script>
+<script src="./js/burger.js"></script>
+</html>
