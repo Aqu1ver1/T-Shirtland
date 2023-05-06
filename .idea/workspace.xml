@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fb954119-fa51-47e0-a189-0a5f11f2fdb5" name="Changes" comment="new page, t-shirts, scripts fot sliders">
+    <list default="true" id="fb954119-fa51-47e0-a189-0a5f11f2fdb5" name="Changes" comment="fixs">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/slider_arr_1.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/slider_arr_1.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aboutUs.html" beforeDir="false" afterPath="$PROJECT_DIR$/aboutUs.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/slider_arr_2.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/slider_arr_2.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop.css" beforeDir="false" afterPath="$PROJECT_DIR$/shop.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/shop.html" beforeDir="false" afterPath="$PROJECT_DIR$/shop.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -50,22 +52,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;F:/web/2022 09/T-shirt store&quot;,
-    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "F:/web/2023/dota_wiki/school-project-frondend",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -85,7 +87,12 @@
       <workItem from="1682777268285" duration="8315000" />
       <workItem from="1682788353477" duration="1738000" />
       <workItem from="1682876599645" duration="8219000" />
-      <workItem from="1682887235689" duration="197000" />
+      <workItem from="1682887235689" duration="261000" />
+      <workItem from="1682930876008" duration="9000" />
+      <workItem from="1682931082032" duration="603000" />
+      <workItem from="1683141475981" duration="30000" />
+      <workItem from="1683189760981" duration="714000" />
+      <workItem from="1683277705454" duration="160000" />
     </task>
     <task id="LOCAL-00001" summary="new page, t-shirts, scripts fot sliders">
       <created>1682886987906</created>
@@ -94,7 +101,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682886987906</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="fixs">
+      <created>1682887454489</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1682887454489</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -102,6 +116,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="new page, t-shirts, scripts fot sliders" />
-    <option name="LAST_COMMIT_MESSAGE" value="new page, t-shirts, scripts fot sliders" />
+    <MESSAGE value="fixs" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixs" />
   </component>
 </project>
