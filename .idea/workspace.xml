@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fb954119-fa51-47e0-a189-0a5f11f2fdb5" name="Changes" comment="fixs">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aboutUs.html" beforeDir="false" afterPath="$PROJECT_DIR$/aboutUs.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+    <list default="true" id="fb954119-fa51-47e0-a189-0a5f11f2fdb5" name="Changes" comment="translate">
       <change beforePath="$PROJECT_DIR$/shop.html" beforeDir="false" afterPath="$PROJECT_DIR$/shop.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -94,7 +91,7 @@
       <workItem from="1683277705454" duration="160000" />
       <workItem from="1683417359931" duration="771000" />
       <workItem from="1683447746306" duration="46000" />
-      <workItem from="1683481792829" duration="1175000" />
+      <workItem from="1683481792829" duration="1263000" />
     </task>
     <task id="LOCAL-00001" summary="new page, t-shirts, scripts fot sliders">
       <created>1682886987906</created>
@@ -117,7 +114,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683417371828</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="translate">
+      <created>1683483048890</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1683483048890</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -126,6 +130,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="new page, t-shirts, scripts fot sliders" />
     <MESSAGE value="fixs" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixs" />
+    <MESSAGE value="translate" />
+    <option name="LAST_COMMIT_MESSAGE" value="translate" />
   </component>
 </project>
